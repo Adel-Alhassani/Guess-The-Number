@@ -5,9 +5,9 @@ let btn1 = document.querySelector("#btn1")
 let btn2 = document.querySelector("#btn2")
 let resetBtn = document.querySelector("#reset")
 let btns = document.querySelectorAll(".btns")
+let randomNumsBtns = document.querySelectorAll(".randomNumsBtn")
 
-let arrBtns = [btn0, btn1, btn2];
-
+let arrBtns = Array.from(randomNumsBtns);
 let randNum = getRandomInt(100);
 let randBtn = chooseRandomBtn(arrBtns);
 
@@ -26,8 +26,6 @@ function win(state) {
     } else {
         label.textContent = "Wrong!"
         label.style.color = "#c40202";
-        // randBtn.style.backgroundColor = "#00f719";
-
     }
     resetBtn.style.cursor = "pointer"
 }

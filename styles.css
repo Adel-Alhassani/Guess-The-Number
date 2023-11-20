@@ -140,9 +140,8 @@ table {
 
 html {
     box-sizing: border-box;
-    font-family: 'Tektur', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
-
 
 .parent {
     width: 100vw;
@@ -201,8 +200,8 @@ html {
 
 #reset {
     color: white;
-    font-family: 'Tektur', cursive;
-    font-size: 1.5em;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.7em;
     background: none;
     padding: 5px 20px;
     border: solid 2px white;
